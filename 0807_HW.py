@@ -120,7 +120,7 @@ def bubble_sizes(series, min_size=80, max_size=780):
 # 사이드바 - 엑셀 업로드
 # ---------------------------
 st.sidebar.header("엑셀 업로드")
-uploaded = st.sidebar.file_uploader("대시보드용 엑셀 파일을 업로드하세요 (.xlsx)", type=["xlsx"])
+uploaded = st.sidebar.file_uploader("0. 그래프_최종_과제용 엑셀 파일을 업로드하세요 (.xlsx)", type=["xlsx"])
 
 # 예상 시트명(파일에 정확히 이 이름으로 존재한다고 가정)
 DEFAULT_SHEETS = {
@@ -303,3 +303,4 @@ with bot_right:
 
 # 푸터
 st.caption("© 2025. 스트림릿 대시보드 데모 — 아마존 데이터 분석 관점의 레이아웃/표현 최적화.")
+
